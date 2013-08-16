@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="196" y="224" width="809" height="425" measuredWidth="809" measuredHeight="425" foreground="#cccccc"/>
+  <widgets xsi:type="model:WidgetGroup" id="2" x="843" y="227" measuredWidth="155" measuredHeight="44">
+    <widgets xsi:type="model:WidgetGroup" id="3" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="4" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="5" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="find (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="6" x="53" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="7" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="8" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="9" x="16" y="11" text="0" measuredWidth="11" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="10" x="110" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="11" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="12" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="unsecure (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="13" x="97" y="1" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+    <widgets xsi:type="model:Icon" id="14" x="44" y="2" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="213" y="231" measuredWidth="79" measuredHeight="43">
+    <widgets xsi:type="model:Icon" id="16" x="20" width="25" height="24" measuredWidth="25" measuredHeight="24" foreground="#674ea7" icon="image (large)"/>
+    <widgets xsi:type="model:Label" id="17" y="22" text="Urban Ganesh" measuredWidth="79" measuredHeight="21">
+      <font size="11px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="59" y="231" measuredWidth="149" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="19" x="101" y="15" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="20" width="99" height="106" text="Takes user to the home (this) screen of the app." measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="896" y="112" measuredWidth="113" measuredHeight="122">
+    <widgets xsi:type="model:Arrow" id="22" x="16" y="59" width="8" height="63" measuredWidth="8" measuredHeight="63" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="23" width="113" height="60" text="Shows the no. of items currently in the shopping cart" measuredWidth="113" measuredHeight="60" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="24" x="985" y="224" measuredWidth="136" measuredHeight="73">
+    <widgets xsi:type="model:Arrow" id="25" y="22" width="40" height="8" measuredWidth="40" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="26" x="39" width="97" height="73" text="Indicates user is not logged in.  On click shows the login screen." measuredWidth="97" measuredHeight="73" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="27" x="727" y="148" measuredWidth="161" measuredHeight="96">
+    <widgets xsi:type="model:TextArea" id="28" width="161" height="41" text="On click, the icon is replaced by a search box." measuredWidth="161" measuredHeight="41" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="29" x="143" y="54" width="8" height="42" measuredWidth="8" measuredHeight="42" annotation="true" foreground="#999999" lineStyle="dashed"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="843" y="317" measuredWidth="143" measuredHeight="322">
+    <widgets xsi:type="model:Panel" id="31" width="143" height="322" measuredWidth="143" measuredHeight="322" background="#eeeeee" foreground="#eeeeee"/>
+    <widgets xsi:type="model:Label" id="32" x="6" y="8" text="Empowering children" measuredWidth="136" measuredHeight="25">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="33" x="10" y="38" width="123" height="178" text="Hand 2 Hand&#xD;&#xA;&#xD;&#xA;Urban Ganesh partners with Hand 2 Hand - an Indian NGO to empower young children.&#xD;&#xA;&#xD;&#xA;1% of each product price goes to Hand 2 Hand." measuredWidth="123" measuredHeight="178" background="#eeeeee" borderColor="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="34" x="10" y="222" text="www.hand2hand.com" measuredWidth="120" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="35" x="972" y="400" measuredWidth="149" measuredHeight="97">
+    <widgets xsi:type="model:Arrow" id="36" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="37" x="52" width="97" height="97" text="Showcases the different causes that Urban Ganesh is assoicated with" measuredWidth="97" measuredHeight="97" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="38" x="972" y="533" measuredWidth="149" measuredHeight="68">
+    <widgets xsi:type="model:Arrow" id="39" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="40" x="52" width="97" height="68" text="opens the site in the browser of the phone" measuredWidth="97" measuredHeight="68" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="41" x="390" y="12" text="Urban Ganesh - Sign up screen (regular)" measuredWidth="383" measuredHeight="36" foreground="#0000ff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="43" x="335" y="286" width="342" height="32" text="Login, Sign up" measuredWidth="342" measuredHeight="32" selection="1">
+    <font bold="true"/>
+    <items x="0" y="0" width="151" height="32" text="Login"/>
+    <items x="151" y="0" width="191" height="32" text="Sign up"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="335" y="328" width="342" measuredWidth="342" measuredHeight="33">
+    <widgets xsi:type="model:Panel" id="45" width="342" height="33" measuredWidth="342" measuredHeight="33" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="46" x="12" y="3" width="164" text="User name" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="47" x="336" y="401" width="342" measuredWidth="342" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="48" width="342" height="28" measuredWidth="342" measuredHeight="28" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="49" x="12" y="3" width="164" text="Password" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="54" x="335" y="532" width="342" measuredWidth="342" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="55" width="342" height="41" measuredWidth="342" measuredHeight="41" background="#ff9900" foreground="#ff9900" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="56" x="107" y="7" width="115" text="Sign Up Now" measuredWidth="115" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="65" x="318" y="570" width="378" measuredWidth="377" measuredHeight="23">
+    <widgets xsi:type="model:HLine" id="57" y="8" width="171" measuredWidth="171" measuredHeight="6" foreground="#cccccc"/>
+    <widgets xsi:type="model:Label" id="58" x="179" width="24" text="OR" measuredWidth="24" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:HLine" id="59" x="206" y="7" width="171" measuredWidth="171" measuredHeight="6" foreground="#cccccc"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="60" x="418" y="582" width="177" text="Connect with another account" measuredWidth="177" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="75" x="340" y="600" width="342" measuredWidth="342" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="61" width="342" height="41" measuredWidth="342" measuredHeight="41" background="#cccccc" foreground="#999999" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="62" x="122" y="7" width="94" text="Facebook" measuredWidth="94" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="63" x="88" y="9" width="26" measuredWidth="26" measuredHeight="24" icon="facebook (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="64" x="207" y="270" width="780" height="9" measuredWidth="780" measuredHeight="9" background="#cccccc" foreground="#cccccc"/>
+  <widgets xsi:type="model:WidgetGroup" id="66" x="336" y="366" width="342" measuredWidth="342" measuredHeight="27">
+    <widgets xsi:type="model:Panel" id="67" width="342" height="27" measuredWidth="342" measuredHeight="27" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="68" x="12" width="164" text="Email" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="69" x="336" y="436" width="342" measuredWidth="342" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="70" width="342" height="28" measuredWidth="342" measuredHeight="28" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="71" x="12" y="3" width="164" text="Confirm password" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="72" x="335" y="469" width="342" measuredWidth="342" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="73" width="342" height="28" measuredWidth="342" measuredHeight="28" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="74" x="12" y="3" width="164" text="City" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="81" x="573" y="504" text="Female" measuredWidth="58" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="82" x="634" y="504" text="Male" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="83" x="391" y="504" text="Year" measuredWidth="49" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="84" x="448" y="504" text="Month" measuredWidth="62" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Combo" id="85" x="518" y="504" text="Day" measuredWidth="46" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="86" x="336" y="504" text="Birthday" measuredWidth="52" measuredHeight="23">
+    <font bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="117" x="16" y="323" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="88" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="89" width="142" height="38" text="Username to be displayed on profile" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="116" x="16" y="366" measuredWidth="329" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="90" x="149" y="15" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="91" width="142" height="38" text="Email address. Will be verified" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="115" x="16" y="403" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="92" x="141" y="10" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="93" width="142" height="38" text="Password of choice" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="114" x="16" y="432" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="94" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="95" width="142" height="38" text="Confirm the above typed password" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="113" x="16" y="469" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="96" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="97" width="142" height="38" text="City of residence" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="112" x="16" y="497" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="98" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="99" width="142" height="38" text="Birth date of the user" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="111" x="16" y="534" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="100" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="101" width="142" height="38" text="Click to complete sign up" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="110" x="24" y="600" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="104" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="105" width="142" height="38" text="Click to sign up using facebook" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="118" x="681" y="512" measuredWidth="149" measuredHeight="206">
+    <widgets xsi:type="model:TextArea" id="109" x="7" y="168" width="142" height="38" text="Gender of the user" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="108" measuredWidth="76" measuredHeight="169">
+      <widgets xsi:type="model:HLine" id="106" width="69" measuredWidth="69" measuredHeight="6" foreground="#999999" lineStyle="dashed"/>
+      <widgets xsi:type="model:Arrow" id="107" x="68" y="2" width="8" height="167" measuredWidth="8" measuredHeight="167" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="119" x="186" y="960" width="809" height="425" measuredWidth="809" measuredHeight="425" foreground="#cccccc"/>
+  <widgets xsi:type="model:WidgetGroup" id="120" x="833" y="963" measuredWidth="155" measuredHeight="44">
+    <widgets xsi:type="model:WidgetGroup" id="121" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="122" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="123" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="find (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="124" x="53" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="125" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="126" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="127" x="16" y="11" text="0" measuredWidth="11" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="128" x="110" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="129" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="130" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="unsecure (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="131" x="97" y="1" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+    <widgets xsi:type="model:Icon" id="132" x="44" y="2" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="133" x="203" y="967" measuredWidth="79" measuredHeight="43">
+    <widgets xsi:type="model:Icon" id="134" x="20" width="25" height="24" measuredWidth="25" measuredHeight="24" foreground="#674ea7" icon="image (large)"/>
+    <widgets xsi:type="model:Label" id="135" y="22" text="Urban Ganesh" measuredWidth="79" measuredHeight="21">
+      <font size="11px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="136" x="49" y="967" measuredWidth="149" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="137" x="101" y="15" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="138" width="99" height="106" text="Takes user to the home (this) screen of the app." measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="139" x="886" y="848" measuredWidth="113" measuredHeight="122">
+    <widgets xsi:type="model:Arrow" id="140" x="16" y="59" width="8" height="63" measuredWidth="8" measuredHeight="63" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="141" width="113" height="60" text="Shows the no. of items currently in the shopping cart" measuredWidth="113" measuredHeight="60" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="142" x="975" y="960" measuredWidth="136" measuredHeight="73">
+    <widgets xsi:type="model:Arrow" id="143" y="22" width="40" height="8" measuredWidth="40" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="144" x="39" width="97" height="73" text="Indicates user is not logged in.  On click shows the login screen." measuredWidth="97" measuredHeight="73" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="145" x="717" y="884" measuredWidth="161" measuredHeight="96">
+    <widgets xsi:type="model:TextArea" id="146" width="161" height="41" text="On click, the icon is replaced by a search box." measuredWidth="161" measuredHeight="41" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="147" x="143" y="54" width="8" height="42" measuredWidth="8" measuredHeight="42" annotation="true" foreground="#999999" lineStyle="dashed"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="148" x="833" y="1053" measuredWidth="143" measuredHeight="322">
+    <widgets xsi:type="model:Panel" id="149" width="143" height="322" measuredWidth="143" measuredHeight="322" background="#eeeeee" foreground="#eeeeee"/>
+    <widgets xsi:type="model:Label" id="150" x="6" y="8" text="Empowering children" measuredWidth="136" measuredHeight="25">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="151" x="10" y="38" width="123" height="178" text="Hand 2 Hand&#xD;&#xA;&#xD;&#xA;Urban Ganesh partners with Hand 2 Hand - an Indian NGO to empower young children.&#xD;&#xA;&#xD;&#xA;1% of each product price goes to Hand 2 Hand." measuredWidth="123" measuredHeight="178" background="#eeeeee" borderColor="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="152" x="10" y="222" text="www.hand2hand.com" measuredWidth="120" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="153" x="962" y="1136" measuredWidth="149" measuredHeight="97">
+    <widgets xsi:type="model:Arrow" id="154" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="155" x="52" width="97" height="97" text="Showcases the different causes that Urban Ganesh is assoicated with" measuredWidth="97" measuredHeight="97" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="156" x="962" y="1269" measuredWidth="149" measuredHeight="68">
+    <widgets xsi:type="model:Arrow" id="157" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="158" x="52" width="97" height="68" text="opens the site in the browser of the phone" measuredWidth="97" measuredHeight="68" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="159" x="453" y="748" text="Urban Ganesh - Sign up screen (via facebook)" measuredWidth="436" measuredHeight="36" foreground="#0000ff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="160" x="355" y="783" text="The screen that the user sees when she clicks on the open lock icon ( extreme right top corner) and then selects sign up" measuredWidth="631" measuredHeight="23" foreground="#cc0000">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:ButtonBar" id="161" x="325" y="1022" width="342" height="45" text="Login, Sign up" measuredWidth="342" measuredHeight="45" selection="1">
+    <font bold="true"/>
+    <items x="0" y="0" width="151" height="45" text="Login"/>
+    <items x="151" y="0" width="191" height="45" text="Sign up"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="162" x="325" y="1076" measuredWidth="342" measuredHeight="33">
+    <widgets xsi:type="model:Panel" id="163" width="342" height="33" measuredWidth="342" measuredHeight="33" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="164" x="12" y="3" width="164" text="Debasish" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="168" x="326" y="1320" measuredWidth="342" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="169" width="342" height="41" measuredWidth="342" measuredHeight="41" background="#ff9900" foreground="#ff9900" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="170" x="107" y="7" width="115" text="Sign Up Now" measuredWidth="115" measuredHeight="28">
+      <font size="15px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="180" x="197" y="1006" width="780" height="9" measuredWidth="780" measuredHeight="9" background="#cccccc" foreground="#cccccc"/>
+  <widgets xsi:type="model:WidgetGroup" id="181" x="326" y="1118" measuredWidth="342" measuredHeight="27">
+    <widgets xsi:type="model:Panel" id="182" width="342" height="27" measuredWidth="342" measuredHeight="27" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="183" x="12" width="164" text="deba@ensarm.com" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="187" x="324" y="1242" measuredWidth="342" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="188" width="342" height="28" measuredWidth="342" measuredHeight="28" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="189" x="12" y="3" width="164" text="Hamburg" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="196" x="6" y="1071" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="197" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="198" width="142" height="38" text="Username to be displayed on profile" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="199" x="6" y="1118" measuredWidth="329" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="200" x="149" y="15" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="201" width="142" height="38" text="Email address. Will be verified" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="202" x="6" y="1160" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="203" x="141" y="10" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="204" width="142" height="38" text="Password of choice" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="205" x="5" y="1197" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="206" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="207" width="142" height="38" text="Confirm the above typed password" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="208" x="5" y="1242" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="209" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="210" width="142" height="38" text="City of residence" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="211" x="5" y="1277" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="212" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="213" width="142" height="38" text="Birth date of the user" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="214" x="7" y="1322" measuredWidth="321" measuredHeight="38">
+    <widgets xsi:type="model:Arrow" id="215" x="141" y="21" width="180" height="8" measuredWidth="180" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="216" width="142" height="38" text="Click to complete sign up" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="220" x="669" y="1292" measuredWidth="149" measuredHeight="206">
+    <widgets xsi:type="model:TextArea" id="221" x="7" y="168" width="142" height="38" text="Gender of the user" measuredWidth="142" measuredHeight="38" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="222" measuredWidth="76" measuredHeight="169">
+      <widgets xsi:type="model:HLine" id="223" width="69" measuredWidth="69" measuredHeight="6" foreground="#999999" lineStyle="dashed"/>
+      <widgets xsi:type="model:Arrow" id="224" x="68" y="2" width="8" height="167" measuredWidth="8" measuredHeight="167" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="226" x="569" y="1284" text="Female" measuredWidth="58" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:RadioButton" id="227" x="630" y="1284" text="Male" measuredWidth="46" measuredHeight="23" selected="true">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="228" x="332" y="1284" measuredWidth="220" measuredHeight="23">
+    <widgets xsi:type="model:Combo" id="229" x="55" text="1977" measuredWidth="50" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="230" x="112" width="61" text="Jan" measuredWidth="61" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Combo" id="231" x="182" text="25" measuredWidth="38" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="232" text="Birthday" measuredWidth="52" measuredHeight="23">
+      <font bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="257" x="324" y="1159" measuredWidth="342" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="258" width="342" height="28" measuredWidth="342" measuredHeight="28" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="259" x="12" y="3" width="164" text="Password" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="263" x="326" y="1207" measuredWidth="342" measuredHeight="28">
+    <widgets xsi:type="model:Panel" id="264" width="342" height="28" measuredWidth="342" measuredHeight="28" border="solid-rounded"/>
+    <widgets xsi:type="model:Label" id="265" x="12" y="3" width="164" text="Confirm password" measuredWidth="164" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="266" x="304" y="805" width="734" text="When the user chooses to sing up via facebook, details available from fb are pre populated and displayed to the user." measuredWidth="734" measuredHeight="23" foreground="#cc0000">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="267" x="266" y="47" text="The screen that the user sees when she clicks on the open lock icon ( extreme right top corner) and then selects sign up" measuredWidth="631" measuredHeight="23" foreground="#cc0000">
+    <font bold="false"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

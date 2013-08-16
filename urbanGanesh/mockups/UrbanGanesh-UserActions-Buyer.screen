@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Panel" id="1" x="179" y="1140" width="809" height="425" measuredWidth="809" measuredHeight="425" foreground="#cccccc"/>
+  <widgets xsi:type="model:WidgetGroup" id="2" x="830" y="1143" measuredWidth="155" measuredHeight="44">
+    <widgets xsi:type="model:WidgetGroup" id="3" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="4" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="5" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="find (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="6" x="53" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="7" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="8" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="9" x="16" y="11" text="0" measuredWidth="11" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="10" x="110" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="11" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="12" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="secure (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="13" x="97" y="1" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+    <widgets xsi:type="model:Icon" id="14" x="44" y="2" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="15" x="200" y="1147" measuredWidth="79" measuredHeight="43">
+    <widgets xsi:type="model:Icon" id="16" x="20" width="25" height="24" measuredWidth="25" measuredHeight="24" foreground="#674ea7" icon="image (large)"/>
+    <widgets xsi:type="model:Label" id="17" y="22" text="Urban Ganesh" measuredWidth="79" measuredHeight="21">
+      <font size="11px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="18" x="46" y="1147" measuredWidth="149" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="19" x="101" y="15" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="20" width="99" height="106" text="Takes user to the home (this) screen of the app." measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="21" x="883" y="1028" measuredWidth="113" measuredHeight="122">
+    <widgets xsi:type="model:Arrow" id="22" x="16" y="59" width="8" height="63" measuredWidth="8" measuredHeight="63" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="23" width="113" height="60" text="Shows the no. of items currently in the shopping cart" measuredWidth="113" measuredHeight="60" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="24" x="972" y="1140" measuredWidth="136" measuredHeight="73">
+    <widgets xsi:type="model:Arrow" id="25" y="22" width="40" height="8" measuredWidth="40" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="26" x="39" width="97" height="73" text="Indicates user is logged in. On click, logs out the user." measuredWidth="97" measuredHeight="73" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="30" x="714" y="1064" measuredWidth="161" measuredHeight="96">
+    <widgets xsi:type="model:TextArea" id="31" width="161" height="41" text="On click, the icon is replaced by a search box." measuredWidth="161" measuredHeight="41" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="32" x="143" y="54" width="8" height="42" measuredWidth="8" measuredHeight="42" annotation="true" foreground="#999999" lineStyle="dashed"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="33" x="200" y="1243" text="Best sellers" measuredWidth="112" measuredHeight="36" foreground="#ff9900">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="34" x="211" y="1292" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="35" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="36" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="37" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="38" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="39" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="40" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="41" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="42" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="43" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="44" x="387" y="1292" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="45" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="46" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="47" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="48" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="49" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="50" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#ff0080" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="51" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="52" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="53" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="54" x="543" y="1292" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="55" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="56" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="57" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="58" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="59" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="60" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="61" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="62" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="63" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="64" x="707" y="1292" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="65" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="66" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="67" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="68" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="69" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="70" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="71" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="72" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="73" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="74" x="211" y="1447" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="75" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="76" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="77" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="78" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="79" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="80" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="81" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="82" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="83" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="84" x="543" y="1447" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="85" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="86" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="87" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="88" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="89" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="90" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="91" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="92" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="93" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="94" x="707" y="1447" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="95" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="96" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="97" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="98" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="99" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="100" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="101" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="102" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="103" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="104" x="200" y="1406" text="Reccomended for you" measuredWidth="212" measuredHeight="36" foreground="#ff9900">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="105" x="830" y="1233" measuredWidth="143" measuredHeight="322">
+    <widgets xsi:type="model:Panel" id="106" width="143" height="322" measuredWidth="143" measuredHeight="322" background="#eeeeee" foreground="#eeeeee"/>
+    <widgets xsi:type="model:Label" id="107" x="6" y="8" text="Empowering children" measuredWidth="136" measuredHeight="25">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="108" x="10" y="38" width="123" height="178" text="Hand 2 Hand&#xD;&#xA;&#xD;&#xA;Urban Ganesh partners with Hand 2 Hand - an Indian NGO to empower young children.&#xD;&#xA;&#xD;&#xA;1% of each product price goes to Hand 2 Hand." measuredWidth="123" measuredHeight="178" background="#eeeeee" borderColor="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="109" x="10" y="222" text="www.hand2hand.com" measuredWidth="120" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="110" x="57" y="1288" measuredWidth="148" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="111" x="100" y="51" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="112" width="99" height="106" text="A horizontally scrollable list of best selling products of the site" measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="113" x="57" y="1431" measuredWidth="148" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="114" x="100" y="51" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="115" width="99" height="106" text="A horizontally scrollable list of recommended items for the user based on browsing pattern" measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="116" x="959" y="1316" measuredWidth="149" measuredHeight="97">
+    <widgets xsi:type="model:Arrow" id="117" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="118" x="52" width="97" height="97" text="Showcases the different causes that Urban Ganesh is assoicated with" measuredWidth="97" measuredHeight="97" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="119" x="959" y="1449" measuredWidth="149" measuredHeight="68">
+    <widgets xsi:type="model:Arrow" id="120" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="121" x="52" width="97" height="68" text="opens the site in the browser of the phone" measuredWidth="97" measuredHeight="68" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="122" x="453" y="928" text="Urban Ganesh - User actions ( buyer )" measuredWidth="359" measuredHeight="36" foreground="#0000ff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="123" x="377" y="958" text="The user can pull down the header bar to view a list of actions that can be performed by the user" measuredWidth="512" measuredHeight="23" foreground="#cc0000">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="124" x="387" y="1447" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="125" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="126" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="127" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="128" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="129" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="130" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="131" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="132" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="133" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="134" x="770" y="1472" measuredWidth="333" measuredHeight="127">
+    <widgets xsi:type="model:Arrow" id="135" width="241" height="97" measuredWidth="241" measuredHeight="97" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    <widgets xsi:type="model:Label" id="136" x="216" y="104" text="Image of the product" measuredWidth="117" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="137" x="803" y="1496" measuredWidth="308" measuredHeight="135">
+    <widgets xsi:type="model:Arrow" id="138" width="193" height="113" measuredWidth="193" measuredHeight="113" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    <widgets xsi:type="model:Label" id="139" x="192" y="112" text="Name of the product" measuredWidth="116" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="140" x="598" y="1520" measuredWidth="132" measuredHeight="146">
+    <widgets xsi:type="model:Arrow" id="141" x="89" width="43" height="124" measuredWidth="43" measuredHeight="124" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="142" y="123" text="Price of the product" measuredWidth="110" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="143" x="730" y="1544" measuredWidth="64" measuredHeight="122">
+    <widgets xsi:type="model:Arrow" id="144" x="31" width="8" height="100" measuredWidth="8" measuredHeight="100" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="145" y="99" text="Add to cart" measuredWidth="64" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="146" x="787" y="1520" measuredWidth="115" measuredHeight="302">
+    <widgets xsi:type="model:Arrow" id="147" width="48" height="161" measuredWidth="48" measuredHeight="161" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    <widgets xsi:type="model:TextArea" id="148" x="16" y="165" width="99" height="137" text="Number of likes for the product. A user can click on the grey heart to like the product. Pink heart means user already likes it." measuredWidth="99" measuredHeight="137" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="149" x="194" y="1186" width="779" height="9" measuredWidth="779" measuredHeight="9" background="#cccccc" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="150" x="296" y="1151" text="Welcome Debasish" measuredWidth="137" measuredHeight="28" foreground="#ff9900">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="151" x="194" y="1193" width="779" height="57" measuredWidth="779" measuredHeight="57" background="#666666" foreground="#666666"/>
+  <widgets xsi:type="model:WidgetGroup" id="162" x="211" y="1201" width="190" measuredWidth="190" measuredHeight="41">
+    <widgets xsi:type="model:Panel" id="152" width="190" height="41" measuredWidth="190" measuredHeight="41" background="#dbdbdb" foreground="#dbdbdb"/>
+    <widgets xsi:type="model:Icon" id="153" x="85" y="5" width="30" measuredWidth="30" measuredHeight="16" icon="eye (small)"/>
+    <widgets xsi:type="model:Label" id="154" x="73" y="20" width="54" text="Browse" measuredWidth="54" measuredHeight="21">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="163" x="411" y="1201" width="198" measuredWidth="198" measuredHeight="42">
+    <widgets xsi:type="model:Panel" id="164" width="198" height="41" measuredWidth="198" measuredHeight="41" background="#dbdbdb" foreground="#dbdbdb"/>
+    <widgets xsi:type="model:Icon" id="165" x="78" y="6" width="32" measuredWidth="32" measuredHeight="16" icon="database (small)"/>
+    <widgets xsi:type="model:Label" id="166" x="69" y="21" width="49" text="Orders" measuredWidth="49" measuredHeight="21">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="167" x="622" y="1201" width="172" measuredWidth="172" measuredHeight="42">
+    <widgets xsi:type="model:Panel" id="168" width="172" height="41" measuredWidth="172" measuredHeight="41" background="#dbdbdb" foreground="#dbdbdb"/>
+    <widgets xsi:type="model:Icon" id="169" x="69" y="6" width="28" measuredWidth="28" measuredHeight="16" icon="user (small)"/>
+    <widgets xsi:type="model:Label" id="170" x="46" y="21" width="73" text="My account" measuredWidth="73" measuredHeight="21">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="171" x="805" y="1201" width="158" measuredWidth="150" measuredHeight="42">
+    <widgets xsi:type="model:Panel" id="172" width="150" height="41" measuredWidth="150" measuredHeight="41" background="#dbdbdb" foreground="#dbdbdb"/>
+    <widgets xsi:type="model:Icon" id="173" x="67" y="6" width="24" measuredWidth="24" measuredHeight="16" icon="wizard (small)"/>
+    <widgets xsi:type="model:Label" id="174" x="29" y="21" width="100" text="Reccomendations" measuredWidth="100" measuredHeight="21">
+      <font size="10px"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="176" x="472" y="992" measuredWidth="225" measuredHeight="217">
+    <widgets xsi:type="model:TextArea" id="177" width="225" height="41" text="Horizontally scrollable list of actions that the user can perform" measuredWidth="225" measuredHeight="41" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="178" x="128" y="40" width="8" height="177" measuredWidth="8" measuredHeight="177" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="179" x="181" y="238" width="809" height="425" measuredWidth="809" measuredHeight="425" foreground="#cccccc"/>
+  <widgets xsi:type="model:WidgetGroup" id="180" x="832" y="241" measuredWidth="155" measuredHeight="44">
+    <widgets xsi:type="model:WidgetGroup" id="181" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="182" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="183" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="find (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="184" x="53" y="1" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="185" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="186" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="187" x="16" y="11" text="0" measuredWidth="11" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+    <widgets xsi:type="model:WidgetGroup" id="188" x="110" measuredWidth="45" measuredHeight="43">
+      <widgets xsi:type="model:Panel" id="189" width="45" height="43" measuredWidth="45" measuredHeight="43" foreground="#ffffff"/>
+      <widgets xsi:type="model:Icon" id="190" x="10" y="10" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="secure (medium)"/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="191" x="97" y="1" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+    <widgets xsi:type="model:Icon" id="192" x="44" y="2" width="10" height="42" measuredWidth="10" measuredHeight="42" foreground="#999999" icon="separator (medium)"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="193" x="202" y="245" measuredWidth="79" measuredHeight="43">
+    <widgets xsi:type="model:Icon" id="194" x="20" width="25" height="24" measuredWidth="25" measuredHeight="24" foreground="#674ea7" icon="image (large)"/>
+    <widgets xsi:type="model:Label" id="195" y="22" text="Urban Ganesh" measuredWidth="79" measuredHeight="21">
+      <font size="11px" bold="true"/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="196" x="48" y="245" measuredWidth="149" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="197" x="101" y="15" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="198" width="99" height="106" text="Takes user to the home (this) screen of the app." measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="199" x="885" y="126" measuredWidth="113" measuredHeight="122">
+    <widgets xsi:type="model:Arrow" id="200" x="16" y="59" width="8" height="63" measuredWidth="8" measuredHeight="63" annotation="true" foreground="#999999" lineStyle="dashed"/>
+    <widgets xsi:type="model:TextArea" id="201" width="113" height="60" text="Shows the no. of items currently in the shopping cart" measuredWidth="113" measuredHeight="60" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="202" x="974" y="238" measuredWidth="136" measuredHeight="73">
+    <widgets xsi:type="model:Arrow" id="203" y="22" width="40" height="8" measuredWidth="40" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="204" x="39" width="97" height="73" text="Indicates user is logged in. On click, logs out the user." measuredWidth="97" measuredHeight="73" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="205" x="716" y="162" measuredWidth="161" measuredHeight="96">
+    <widgets xsi:type="model:TextArea" id="206" width="161" height="41" text="On click, the icon is replaced by a search box." measuredWidth="161" measuredHeight="41" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="207" x="143" y="54" width="8" height="42" measuredWidth="8" measuredHeight="42" annotation="true" foreground="#999999" lineStyle="dashed"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="208" x="202" y="341" text="Best sellers" measuredWidth="112" measuredHeight="36" foreground="#ff9900">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="209" x="213" y="390" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="210" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="211" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="212" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="213" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="214" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="215" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="216" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="217" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="218" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="219" x="389" y="390" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="220" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="221" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="222" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="223" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="224" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="225" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#ff0080" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="226" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="227" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="228" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="229" x="545" y="390" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="230" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="231" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="232" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="233" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="234" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="235" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="236" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="237" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="238" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="239" x="709" y="390" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="240" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="241" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="242" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="243" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="244" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="245" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="246" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="247" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="248" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="249" x="213" y="545" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="250" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="251" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="252" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="253" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="254" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="255" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="256" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="257" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="258" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="259" x="545" y="545" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="260" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="261" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="262" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="263" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="264" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="265" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="266" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="267" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="268" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="269" x="709" y="545" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="270" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="271" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="272" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="273" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="274" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="275" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="276" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="277" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="278" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="279" x="202" y="504" text="Reccomended for you" measuredWidth="212" measuredHeight="36" foreground="#ff9900">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="280" x="832" y="331" measuredWidth="143" measuredHeight="322">
+    <widgets xsi:type="model:Panel" id="281" width="143" height="322" measuredWidth="143" measuredHeight="322" background="#eeeeee" foreground="#eeeeee"/>
+    <widgets xsi:type="model:Label" id="282" x="6" y="8" text="Empowering children" measuredWidth="136" measuredHeight="25">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:TextArea" id="283" x="10" y="38" width="123" height="178" text="Hand 2 Hand&#xD;&#xA;&#xD;&#xA;Urban Ganesh partners with Hand 2 Hand - an Indian NGO to empower young children.&#xD;&#xA;&#xD;&#xA;1% of each product price goes to Hand 2 Hand." measuredWidth="123" measuredHeight="178" background="#eeeeee" borderColor="#eeeeee">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Link" id="284" x="10" y="222" text="www.hand2hand.com" measuredWidth="120" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="285" x="59" y="386" measuredWidth="148" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="286" x="100" y="51" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="287" width="99" height="106" text="A horizontally scrollable list of best selling products of the site" measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="288" x="59" y="529" measuredWidth="148" measuredHeight="106">
+    <widgets xsi:type="model:Arrow" id="289" x="100" y="51" width="48" height="8" measuredWidth="48" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="290" width="99" height="106" text="A horizontally scrollable list of recommended items for the user based on browsing pattern" measuredWidth="99" measuredHeight="106" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="291" x="961" y="414" measuredWidth="149" measuredHeight="97">
+    <widgets xsi:type="model:Arrow" id="292" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="293" x="52" width="97" height="97" text="Showcases the different causes that Urban Ganesh is assoicated with" measuredWidth="97" measuredHeight="97" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="294" x="961" y="547" measuredWidth="149" measuredHeight="68">
+    <widgets xsi:type="model:Arrow" id="295" y="22" width="53" height="8" measuredWidth="53" measuredHeight="8" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true" direction="bottom"/>
+    <widgets xsi:type="model:TextArea" id="296" x="52" width="97" height="68" text="opens the site in the browser of the phone" measuredWidth="97" measuredHeight="68" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Label" id="297" x="455" y="26" text="Urban Ganesh - User actions ( buyer )" measuredWidth="359" measuredHeight="36" foreground="#0000ff">
+    <font size="20px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="298" x="379" y="56" text="The user can pull down the header bar to view a list of actions that can be performed by the user" measuredWidth="512" measuredHeight="23" foreground="#cc0000">
+    <font bold="false"/>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="299" x="389" y="545" measuredWidth="108" measuredHeight="102">
+    <widgets xsi:type="model:Panel" id="300" width="108" height="102" measuredWidth="108" measuredHeight="102"/>
+    <widgets xsi:type="model:Icon" id="301" x="36" y="4" measuredWidth="32" measuredHeight="32" icon="favorites (large)"/>
+    <widgets xsi:type="model:Label" id="302" x="20" y="36" text="Product name" measuredWidth="76" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="303" x="20" y="54" text="€ 200" measuredWidth="32" measuredHeight="21">
+      <font size="11px"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="304" x="80" y="54" text="5" measuredWidth="11" measuredHeight="23">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Icon" id="305" x="61" y="57" measuredWidth="16" measuredHeight="16" foreground="#cccccc" icon="heart (small)"/>
+    <widgets xsi:type="model:WidgetGroup" id="306" x="43" y="72" measuredWidth="24" measuredHeight="24">
+      <widgets xsi:type="model:Icon" id="307" measuredWidth="24" measuredHeight="24" foreground="#0b5394" icon="shopping-cart (medium)"/>
+      <widgets xsi:type="model:Label" id="308" x="6" y="1" text="+" measuredWidth="13" measuredHeight="21" foreground="#ffffff">
+        <font size="11px" bold="true"/>
+      </widgets>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="309" x="772" y="570" measuredWidth="333" measuredHeight="127">
+    <widgets xsi:type="model:Arrow" id="310" width="241" height="97" measuredWidth="241" measuredHeight="97" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    <widgets xsi:type="model:Label" id="311" x="216" y="104" text="Image of the product" measuredWidth="117" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="312" x="805" y="594" measuredWidth="308" measuredHeight="135">
+    <widgets xsi:type="model:Arrow" id="313" width="193" height="113" measuredWidth="193" measuredHeight="113" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    <widgets xsi:type="model:Label" id="314" x="192" y="112" text="Name of the product" measuredWidth="116" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="315" x="600" y="618" measuredWidth="132" measuredHeight="146">
+    <widgets xsi:type="model:Arrow" id="316" x="89" width="43" height="124" measuredWidth="43" measuredHeight="124" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="317" y="123" text="Price of the product" measuredWidth="110" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="318" x="732" y="642" measuredWidth="64" measuredHeight="122">
+    <widgets xsi:type="model:Arrow" id="319" x="31" width="8" height="100" measuredWidth="8" measuredHeight="100" annotation="true" foreground="#999999" lineStyle="dashed" direction="bottom"/>
+    <widgets xsi:type="model:Label" id="320" y="99" text="Add to cart" measuredWidth="64" measuredHeight="23">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:WidgetGroup" id="321" x="789" y="618" measuredWidth="115" measuredHeight="302">
+    <widgets xsi:type="model:Arrow" id="322" width="48" height="161" measuredWidth="48" measuredHeight="161" annotation="true" foreground="#999999" lineStyle="dashed" left="false" right="true"/>
+    <widgets xsi:type="model:TextArea" id="323" x="16" y="165" width="99" height="137" text="Number of likes for the product. A user can click on the grey heart to like the product. Pink heart means user already likes it." measuredWidth="99" measuredHeight="137" borderColor="#ffffff">
+      <font/>
+    </widgets>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="324" x="196" y="284" width="779" height="9" measuredWidth="779" measuredHeight="9" background="#cccccc" foreground="#cccccc"/>
+  <widgets xsi:type="model:Label" id="325" x="298" y="249" text="Welcome Debasish" measuredWidth="137" measuredHeight="28" foreground="#ff9900">
+    <font size="15px" bold="true"/>
+  </widgets>
+  <widgets xsi:type="model:Panel" id="343" x="598" y="284" width="27" height="10" measuredWidth="27" measuredHeight="10" background="#ff9900" foreground="#ff9900"/>
+  <widgets xsi:type="model:WidgetGroup" id="344" x="544" y="104" measuredWidth="161" measuredHeight="185">
+    <widgets xsi:type="model:TextArea" id="345" width="161" height="41" text="User can drag it to view a list of actions for the user" measuredWidth="161" measuredHeight="41" borderColor="#ffffff">
+      <font/>
+    </widgets>
+    <widgets xsi:type="model:Arrow" id="346" x="72" y="48" width="8" height="137" measuredWidth="8" measuredHeight="137" annotation="true" foreground="#999999" lineStyle="dashed"/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
