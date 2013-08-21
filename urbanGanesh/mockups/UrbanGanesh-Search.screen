@@ -265,12 +265,14 @@
       <font/>
     </widgets>
   </widgets>
-  <widgets xsi:type="model:Panel" id="143" x="552" y="195" width="312" height="35" measuredWidth="312" measuredHeight="35" border="solid-rounded"/>
-  <widgets xsi:type="model:Button" id="144" x="822" y="195" width="41" height="35" text="Go" measuredWidth="41" measuredHeight="35" background="#cccccc">
-    <font size="13px" bold="true"/>
-  </widgets>
-  <widgets xsi:type="model:Label" id="146" x="562" y="201" text="Enter search text here" measuredWidth="117" measuredHeight="23" foreground="#999999">
-    <font/>
+  <widgets xsi:type="model:WidgetGroup" id="161" x="552" y="195" measuredWidth="312" measuredHeight="35">
+    <widgets xsi:type="model:Panel" id="143" width="312" height="35" measuredWidth="312" measuredHeight="35" border="solid-rounded"/>
+    <widgets xsi:type="model:Button" id="144" x="270" width="41" height="35" text="Go" measuredWidth="41" measuredHeight="35" background="#cccccc">
+      <font size="13px" bold="true"/>
+    </widgets>
+    <widgets xsi:type="model:Label" id="146" x="10" y="6" text="Enter search text here" measuredWidth="117" measuredHeight="23" foreground="#999999">
+      <font/>
+    </widgets>
   </widgets>
   <widgets xsi:type="model:WidgetGroup" id="149" x="197" y="257" measuredWidth="47" measuredHeight="23">
     <widgets xsi:type="model:Label" id="147" text="rings" measuredWidth="32" measuredHeight="23">
